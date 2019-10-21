@@ -35,3 +35,4 @@ public class KafkaTopicConfig {
         return new NewTopic(TOPIC_NAME, PARTITION, REPLICATION_FACTOR);
     }
 }
+//investments/1218/capital-account/4723
