@@ -28,7 +28,7 @@ public class KafkaMessageProducer {
 
             @Override
             public void onSuccess(SendResult<String, String> result) {
-                log.info("Sent message({}) with offset({})", message, result.getRecordMetadata().offset());
+                log.info("Message is send({}) with offset({})", message, result.getRecordMetadata().offset());
             }
         });
     }

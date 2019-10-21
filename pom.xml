@@ -36,7 +36,7 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-        <!-- Spring Kafka -->
+        <!-- Spring Kafka dependencies -->
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
@@ -46,6 +46,11 @@
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
             <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-messaging</artifactId>
+            <version>5.2.0.RELEASE</version>
         </dependency>
 
         <!-- https://github.com/spring-projects/spring-kafka/issues/1258 -->
